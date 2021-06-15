@@ -1,15 +1,5 @@
 # Basic Redis Leaderboard Demo Java (Spring)
 
-Show how the redis works with Java (Spring).
-
-![alt text](docs/screenshot001.png)
-
-# Overview video
-
-Here's a short video that explains the project and how it uses Redis:
-
-[![Watch the video on YouTube](docs/YTThumbnail.png)](https://www.youtube.com/watch?v=zzinHxdZ34I)
-
 ## Try it out
 
 <p>
@@ -51,11 +41,6 @@ Here's a short video that explains the project and how it uses Redis:
 <a href="https://github.com/GoogleCloudPlatform/cloud-run-button/issues/108#issuecomment-554572173">
 Problem with unsupported flags when deploying google cloud run button
 </a>
-
-## How it works?
-
-![How it works](docs/screenshot001.png)
-
 
 # How it works?
 ## 1. How the data is stored:
@@ -104,7 +89,7 @@ docker-compose up -d --build
 
 #### Open directory server (cd server): copy .env.example to create .env (copy .env.example .env  or cp .env.example .env). And provide the values for environment variables (if needed)
    	- REDIS_URL: Redis server url
-    - REDIS_HOST: Redis server host
+        - REDIS_HOST: Redis server host
 	- REDIS_PORT: Redis server port
 	- REDIS_DB: Redis server db index
 	- REDIS_PASSWORD: Redis server password
