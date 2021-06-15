@@ -4,7 +4,7 @@
   "type": "Building Block",
   "contributed_by": "Redis Labs",
   "repo_url": "https://github.com/redis-developer/basic-redis-leaderboard-demo-java",
-  "download_url": "https://github.com/redis-developer/basic-redis-leaderboard-demo-java/archive/main.zip",
+  "download_url": "https://github.com/redis-developer/basic-redis-leaderboard-demo-java/archive/refs/heads/master.zip",
   "hosted_url": "",
   "quick_deploy": "true",
   "deploy_buttons": [
