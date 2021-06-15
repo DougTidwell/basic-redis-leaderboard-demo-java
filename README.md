@@ -89,7 +89,7 @@ docker-compose up -d --build
 
 #### Open directory server (cd server): copy .env.example to create .env (copy .env.example .env  or cp .env.example .env). And provide the values for environment variables (if needed)
    	- REDIS_URL: Redis server url
-        - REDIS_HOST: Redis server host
+    - REDIS_HOST: Redis server host
 	- REDIS_PORT: Redis server port
 	- REDIS_DB: Redis server db index
 	- REDIS_PASSWORD: Redis server password
